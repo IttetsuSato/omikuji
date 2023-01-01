@@ -2,13 +2,14 @@
   box-sizing: border-box;
 }
 .h1 {
+  position: fixed;
   font-family: "DotGothic16", sans-serif;
   z-index: 2;
 }
 .image {
-  width: 80%;
+  width: 86%;
   position: absolute;
-  top: 25%;
+  top: 30%;
   left: 50%;
   border-radius: 50%;
   transform: translate(-50%, -50%);
@@ -30,4 +31,7 @@
   font-weight: bold;
   border: solid 5px #fff;
   border-radius: 10px;
+  a {
+    color: lightyellow;
+  }
 }

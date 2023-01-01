@@ -1,4 +1,197 @@
-const results = [""];
+const results = [
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "キッテル固体物理学",
+    url: "https://www.maruzen-publishing.co.jp/item/?book_no=293326",
+  },
+  {
+    content: "ブラボー！！！",
+    url: "https://www.youtube.com/watch?v=6wpB1WnEe6A",
+  },
+  {
+    content: "コロチキの準々決勝",
+    url: "https://www.youtube.com/watch?v=jJXo5jyObNw",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
+  },
+];
 const year = 2023;
 let gameFlg = false;
 const startButton = document.querySelector(".image");
@@ -44,10 +237,10 @@ const rotateImage = setInterval(() => {
 const showResult = (resultNumber) => {
   const title = `${resultNumber}等賞!`;
   let resultMessage;
-  if (resultNumber === 0) {
-    resultMessage = "どんな困難も、一撃解決！";
-  }
-  message(title + resultMessage);
+  message(title);
+  setTimeout(() => {
+    messageArea.innerHTML += `<a href=${results[resultNumber].url}>${results[resultNumber].content}</a>`;
+  }, 500);
   startButton.addEventListener("click", onClick);
   startButton.style.pointerEvents = "auto";
 };
@@ -77,3 +270,7 @@ const onClick = () => {
 };
 
 startButton.addEventListener("click", onClick);
+
+for (let i = 1; i < 60; i++) {
+  console.log(`2023 % ${i} = : ${2023 % i}`);
+}
