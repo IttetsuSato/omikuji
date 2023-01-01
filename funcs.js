@@ -1,188 +1,125 @@
 const results = [
   {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
     content: "ブラボー！！！",
     url: "https://www.youtube.com/watch?v=6wpB1WnEe6A",
+  },
+  {
+    content: "中田敦彦のyoutube大学",
+    url: "https://www.youtube.com/@NKTofficial",
   },
   {
     content: "コロチキの準々決勝",
     url: "https://www.youtube.com/watch?v=jJXo5jyObNw",
   },
   {
-    content: "パリピな一年に！",
+    content: "あつまれ！パーティーピーポー",
     url: "https://www.youtube.com/watch?v=J5oytYDMWHA",
   },
+  {},
+  {},
+  {},
+  //7
   {
-    content: "ノリで入籍してみたらええやん",
-    url: "https://www.youtube.com/watch?v=lVIHyj9qVy0",
+    content: "ラッキーセブン！！！",
+    url: "https://www.youtube.com/watch?v=MzHV_W8XmTs",
   },
   {
-    content: "笑顔咲く一年に",
-    url: "https://www.youtube.com/watch?v=CBjAORxDlv0",
+    content: "つぼ八のロゴ",
+    url: "https://www.google.com/search?q=%E3%83%AD%E3%82%B4+%E3%81%A4%E3%81%BC%E5%85%AB&tbm=isch&rlz=1C5CHFA_enJP1008JP1008&hl=ja&sa=X&ved=2ahUKEwiLn6uE_qX8AhXGFYgKHaJsC6wQrNwCKAB6BQgBEI4C&biw=1728&bih=969",
+  },
+  {
+    content: "レアード",
+    url: "https://www.sponichi.co.jp/baseball/news/2019/01/19/kiji/20190118s00001173456000c.html",
   },
   {
     content: "ラッキーアイテムは香水",
     url: "https://www.youtube.com/watch?v=lDur3mBHXSI",
   },
+  {},
+  {},
+  //13
   {
-    content: "頑張るあなたは美しい",
-    url: "https://www.youtube.com/watch?v=DSvA8_VExU0",
+    content: "ジュンサーさん",
+    url: "https://dic.pixiv.net/a/%E3%82%B8%E3%83%A5%E3%83%B3%E3%82%B5%E3%83%BC%E3%81%95%E3%82%93",
   },
   {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
+    content: "ジューC",
+    url: "https://www.kabaya.co.jp/catalog/juicy/",
+  },
+  {},
+  {},
+  //17
+  {
+    content: "伊藤純菜写真集「ありのままの姿」",
+    url: "https://prtimes.jp/main/html/rd/p/000000010.000071011.html",
+  },
+  {},
+  {},
+  {},
+  //21
+  {
+    content: "拳",
+    url: "https://www.youtube.com/watch?v=favID2rXfmQ",
   },
   {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
+    content: "拳",
+    url: "https://www.youtube.com/watch?v=favID2rXfmQ",
   },
   {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
+    content: "拳",
+    url: "https://www.youtube.com/watch?v=favID2rXfmQ",
   },
   {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
+    content: "拳",
+    url: "https://www.youtube.com/watch?v=favID2rXfmQ",
   },
   {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
+    content: "拳",
+    url: "https://www.youtube.com/watch?v=favID2rXfmQ",
   },
+  {},
+  {},
+  //28
   {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
+    content: "ニッパー",
+    url: "https://www.amazon.co.jp/%E3%83%8B%E3%83%83%E3%83%91-%E5%B7%A5%E5%85%B7-%E9%80%9A%E8%B2%A9/b?ie=UTF8&node=2039354051",
   },
+  {},
+  {},
+  {},
+  {},
+  {},
+  //34
   {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
+    content: "サニーゴ",
+    url: "https://zukan.pokemon.co.jp/detail/222",
   },
+  {},
+  {},
+  {},
+  {},
+  {},
+  //40
+  {},
+  {},
+  {},
   {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
+    content: "ライオン",
+    url: "https://www.lion.co.jp/ja/",
   },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
+  {},
   {
     content: "中田敦彦のyoutube大学",
     url: "https://www.youtube.com/@NKTofficial",
   },
+  {},
   {
     content: "中田敦彦のyoutube大学",
     url: "https://www.youtube.com/@NKTofficial",
   },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
-  {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
-  },
+  {},
+  {},
+  {},
   {
     content: "中田敦彦のyoutube大学",
     url: "https://www.youtube.com/@NKTofficial",
@@ -271,5 +208,5 @@ const onClick = () => {
 startButton.addEventListener("click", onClick);
 
 for (let i = 1; i < 60; i++) {
-  console.log(`2023 % ${i} = : ${2023 % i}`);
+  console.log(`2023 % ${i} = ${2023 % i}`);
 }
