@@ -1,5 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.h1 {
+  font-family: "DotGothic16", sans-serif;
+  z-index: 2;
+}
+
 .image {
   width: 80%;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
   max-width: 400px;
   transition: 0.1s;
+  text-align: center;
+}
+
+.message {
+  font-family: "DotGothic16", sans-serif;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  padding: 30px;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: solid 5px #fff;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
