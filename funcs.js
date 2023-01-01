@@ -203,7 +203,7 @@ const onClick = () => {
   console.log({ resultNumber });
 
   message(`${year} を ${seconds} で割ったあまりは、、、${resultNumber}`);
-  setTimeout(() => showResult(resultNumber), 4000);
+  setTimeout(() => showResult(resultNumber), 2500);
 };
 
 startButton.addEventListener("click", onClick);
