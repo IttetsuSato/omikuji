@@ -186,6 +186,7 @@ const onClick = () => {
   messageArea.innerHTML = "";
   if (gameFlg) {
     message("返事がない、ただのフリーイラストのようだ。");
+    message("ページを再リロードしてください。");
     return;
   }
   gameFlg = true;
