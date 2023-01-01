@@ -4,10 +4,6 @@ const results = [
     url: "https://www.youtube.com/@NKTofficial",
   },
   {
-    content: "キッテル固体物理学",
-    url: "https://www.maruzen-publishing.co.jp/item/?book_no=293326",
-  },
-  {
     content: "ブラボー！！！",
     url: "https://www.youtube.com/watch?v=6wpB1WnEe6A",
   },
@@ -16,24 +12,24 @@ const results = [
     url: "https://www.youtube.com/watch?v=jJXo5jyObNw",
   },
   {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
+    content: "パリピな一年に！",
+    url: "https://www.youtube.com/watch?v=J5oytYDMWHA",
   },
   {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
+    content: "ノリで入籍してみたらええやん",
+    url: "https://www.youtube.com/watch?v=lVIHyj9qVy0",
   },
   {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
+    content: "笑顔咲く一年に",
+    url: "https://www.youtube.com/watch?v=CBjAORxDlv0",
   },
   {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
+    content: "ラッキーアイテムは香水",
+    url: "https://www.youtube.com/watch?v=lDur3mBHXSI",
   },
   {
-    content: "中田敦彦のyoutube大学",
-    url: "https://www.youtube.com/@NKTofficial",
+    content: "頑張るあなたは美しい",
+    url: "https://www.youtube.com/watch?v=DSvA8_VExU0",
   },
   {
     content: "中田敦彦のyoutube大学",
@@ -235,12 +231,15 @@ const rotateImage = setInterval(() => {
 }, 1000);
 
 const showResult = (resultNumber) => {
-  const title = `${resultNumber}等賞!`;
-  let resultMessage;
-  message(title);
-  setTimeout(() => {
-    messageArea.innerHTML += `<a href=${results[resultNumber].url}>${results[resultNumber].content}</a>`;
-  }, 500);
+  if (typeof resultNumber !== "number") {
+    message("フッキン100回、代わりにワってクダさい。");
+  } else {
+    const title = `${resultNumber}等賞!`;
+    message(title);
+    setTimeout(() => {
+      messageArea.innerHTML += `<a href=${results[resultNumber].url}>${results[resultNumber].content}</a>`;
+    }, 500);
+  }
   startButton.addEventListener("click", onClick);
   startButton.style.pointerEvents = "auto";
 };
@@ -259,13 +258,13 @@ const onClick = () => {
   const today = new Date();
   const seconds = today.getSeconds();
   if (seconds === 0) {
-    resultNumber = 0;
+    resultNumber = "ワリキレません";
   } else {
     resultNumber = year % seconds;
   }
   console.log({ resultNumber });
 
-  message(`${year} を ${seconds} で割ったあまりは、、、      ${resultNumber}`);
+  message(`${year} を ${seconds} で割ったあまりは、、、${resultNumber}`);
   setTimeout(() => showResult(resultNumber), 4000);
 };
 
